@@ -1,5 +1,6 @@
 body { 
     background-image: url("./img/vs.jpg");
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,4 +25,65 @@ h1{
     width: 300px;
     border-radius: 25px;
     padding: 5px;
+}
+
+.rules {
+    background-color: rgb(241, 241, 243);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 200px
+
+}
+
+li{
+    opacity: solid;
+    font-family: Verdana;
+    font-size: 22px;
+    color: rgb(41, 7, 3);
+    background: #f5f4f2;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(45, 27, 212, 0.5);
+}
+.shoot {
+    margin: 0%;
+    border: 20px solid gold;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+.hidden2 {
+    display: none;
+}
+.hidden3 {
+    display: none;
+}
+
+.results {
+    background-color: rgb(241, 241, 243);
+    opacity: 0.8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50%;
+    height: 100px;
+    width: 700px;
+}
+
+summary {
+    opacity: solid;
+    font-family: Verdana;
+    font-size: 22px;
+    color: rgb(41, 7, 3);
+    background: #f5f4f2;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(45, 27, 212, 0.5);
 }
